@@ -1,0 +1,83 @@
+.custom {
+        background: url("../assets/pexels-houzlook-3797991.jpg");
+        background-size: cover;
+        height: 100%;
+        width: 100%;
+        background-position: center;
+        object-fit: cover;
+      }
+      
+      .custom2 {
+        position: absolute;
+        top: 800px;
+        height: 100%;
+        width: 100%;
+      }
+      
+      .image {
+        background: url("../assets/photo-1583608205776-bfd35f0d9f83.avif");
+        height: 70%;
+        width: 45%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        object-fit: cover;
+        background-position: center;
+        position: absolute;
+        top: 20%;
+        left: 5%;
+        z-index: 1;
+      }
+      
+      .container {
+        position: absolute;
+        left: 45%;
+        top: 7%;
+        padding: 100px;
+        height: 90vh;
+      }
+      
+      .custom3 {
+        position: absolute;
+        top: 1600px;
+        height: 100%;
+        width: 100%;
+      }
+      
+      .card-container {
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+        gap: 10px;
+      }
+      
+      .card {
+        width: 80%;
+        height: fit-content;
+        font-weight: normal;
+        font-size: medium;
+        box-shadow: 1px 1px 1px 1px lightslategray;
+        background-color: gainsboro;
+        padding: 10px;
+        border-radius: 10px;
+      }
+      
+      .profile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        width: fit-content;
+      }
+      
+      .profile-img {
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+      }
+      .custom4{
+        position: absolute;
+        top: 2300px;
+        height: 50vh;
+        width: 100vw;
+        background-color: rgb(243, 240, 240);
+      }
